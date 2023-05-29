@@ -1,0 +1,24 @@
+REQUISITOS PARA EJECUTAR SIN PROBLEMAS
+
+Utilizar la última versión de IntelliJ IDEA:
+https://www.jetbrains.com/idea/download/#section=windows
+
+Tener instalado Maven con la version 3.8.1 en adelante
+https://maven.apache.org/download.cgi (archivo bin)
+
+Configurar maven en IntelliJ:
+File | Settings | Build, Execution, Deployment | Build Tools | Maven
+[Maven home path]
+
+Agregar la variable de entorno MAVEN_HOME al sistema con la ruta hacia el archivo bin de maven.
+https://youtu.be/UfI9Eb-2VYE?t=28
+
+Tener instalado MySQL
+
+Ejecutar el archivo "fabrica_gr6_v2.sql" en MySQL para crear la estructura de la base de datos
+
+(Opcional) Agregar datos de prueba ejecutando el archivo "datos_prueba_fabrica_gr6.sql"
+
+En el archivo "application.properties" ubicado en Fabrica_g6_v2\src\main\resources\application.properties cambiar el campo password por la contraseña para ingresar a la base de datos de MysQL. (también cambiar el username si es diferente de root)
+
+

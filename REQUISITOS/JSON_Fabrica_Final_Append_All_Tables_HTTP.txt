@@ -1,0 +1,439 @@
+# DECANOS
+{
+	"id_decano":109648521,
+	"nombre":'María Alejandra Gutierrez Jimenez',
+	"email":'maria.gutierrezj@udea.edu.co',
+	"oficina":'6-408',
+	"name_facultad":'Ciencias Exactas'
+}
+_________________________________________________
+    
+{
+	"id_decano":46821506,
+ 	"nombre":'Juan Esteban Ramirez Higuita',
+ 	"email":'juan.ramirezh24@udea.edu.co',
+ 	"oficina":'20-401',
+ 	"name_facultad":'Ingeniería'
+}
+
+
+
+########################################################################################################################################
+
+
+# VICEDECANOS
+{
+	"id_vicedecano":67511384,
+ 	"nombre":'José Antonio Álvarez Herrera',
+ 	"email":'josea.alvarezh4@udea.edu.co',
+ 	"oficina":'6-407',
+ 	"name_facultad":'Ciencias Exactas'
+}
+___________________________________________________________________
+{
+	"id_vicedecano":97012546,
+ 	"nombre":'Laura Valentina Vergara Hincapie',
+ 	"email":'laurav.vergarah1@udea.edu.co',
+ 	"oficina":'20-402',
+ 	"name_facultad":'Ingeniería'
+
+}
+
+
+
+########################################################################################################################################
+
+
+# DOCENTE
+{
+	"id_persona":97643250,
+ 	"tipo_contrato":'Planta',
+ 	"nombre":'Eduardo Alvarez Ramirez',
+ 	"email":'eduardo.ar@udea.edu.co'
+
+}
+________________________________________________________________________
+{
+	"id_persona":79462187,
+ 	"tipo_contrato":'Cátedra',
+ 	"nombre":'Luis Emilio Gonzalez Rodriguez',
+ 	"email":'luise.gonzalezr@udea.edu.co'	
+}
+
+
+
+
+########################################################################################################################################
+
+
+
+# MATERIAS
+{
+	"idMateria":495,
+ 	"nombre":"Algebra",
+ 	"lineaEnfasis":null
+}
+_________________________________________________________________________
+{
+	"idMateria":611,
+ 	"nombre":"Optimizacion",
+ 	"lineaEnfasis":"C datos"
+}
+
+
+
+
+########################################################################################################################################
+
+
+
+# AULAS
+{
+	"id_aula":'20-308',
+ 	"bloque":20,
+ 	"salon":308,
+ 	"capacidad":30
+}
+__________________________________________________________________________
+{
+	"id_aula":'18-210',
+ 	"bloque":18,
+ 	"salon":210,
+ 	"capacidad":50
+}
+
+
+
+
+
+########################################################################################################################################
+
+
+
+# FACULTAD
+{
+	"id":10,
+ 	"nombre":'Ciencias Exactas',
+ 	"id_decano":{
+		"id_decano":109648521,
+		"nombre":'María Alejandra Gutierrez Jimenez',
+		"email":'maria.gutierrezj@udea.edu.co',
+		"oficina":'6-408',
+		"name_facultad":'Ciencias Exactas'
+},
+ 	"id_vicedecano":{
+		"id_vicedecano":67511384,
+ 		"nombre":'José Antonio Álvarez Herrera',
+ 		"email":'josea.alvarezh4@udea.edu.co',
+ 		"oficina":'6-407',
+ 		"name_facultad":'Ciencias Exactas'
+}
+}
+
+___________________________________________________________________________
+
+{
+	"id":25,
+ 	"nombre":'Ingeniería',
+ 	"id_decano":{
+		"id_decano":46821506,
+ 		"nombre":'Juan Esteban Ramirez Higuita',
+ 		"email":'juan.ramirezh24@udea.edu.co',
+ 		"oficina":'20-401',
+ 		"name_facultad":'Ingeniería'
+},
+ 	"id_vicedecano":{
+		"id_vicedecano":97012546,
+ 		"nombre":'Laura Valentina Vergara Hincapie',
+ 		"email":'laurav.vergarah1@udea.edu.co',
+ 		"oficina":'20-402',
+ 		"name_facultad":'Ingeniería'
+}
+}
+
+
+
+
+###################################################################################################################
+
+
+# CALENDARIOS
+{
+	"id":'10-2023-1',
+ 	"id_facultad":{
+		"id":10,
+ 		"nombre":'Ciencias Exactas',
+ 		"id_decano":{
+			"id_decano":109648521,
+			"nombre":'María Alejandra Gutierrez Jimenez',
+			"email":'maria.gutierrezj@udea.edu.co',
+			"oficina":'6-408',
+			"name_facultad":'Ciencias Exactas'
+				},
+ 		"id_vicedecano":{
+			"id_vicedecano":67511384,
+ 			"nombre":'José Antonio Álvarez Herrera',
+ 			"email":'josea.alvarezh4@udea.edu.co',
+ 			"oficina":'6-407',
+ 			"name_facultad":'Ciencias Exactas'
+				}
+			},
+ 	"semestre":'2023-1',
+ 	"publicacion_oferta":'2022-12-08',
+ 	"inicio_matriculas":'2022-12-12',
+ 	"fin_matriculas":'2022-12-13',
+ 	"inicio_ajustes":'2022-12-15',
+ 	"fin_ajustes":'2023-01-27',
+ 	"inicio_clases":'2023-02-01',
+ 	"fin_clases":'2023-05-27',
+ 	"inicio_examenes_finales":'2023-05-29',
+ 	"fin_examenes_finales":'2023-06-03',
+ 	"inicio_validaciones":'2022-12-12',
+ 	"fin_validaciones":'2023-06-05',
+ 	"inicio_habilitaciones":'2023-06-05',
+ 	"fin_habilitaciones":'2023-06-10',
+ 	"terminacion_oficinal":'2023-06-13'    
+}
+
+_________________________________________________________________
+
+{
+	"id":'25-2022-2',
+ 	"id_facultad":{
+		"id":25,
+ 		"nombre":'Ingeniería',
+ 		"id_decano":{
+			"id_decano":46821506,
+ 			"nombre":'Juan Esteban Ramirez Higuita',
+ 			"email":'juan.ramirezh24@udea.edu.co',
+ 			"oficina":'20-401',
+ 			"name_facultad":'Ingeniería'
+				},
+ 		"id_vicedecano":{
+			"id_vicedecano":97012546,
+ 			"nombre":'Laura Valentina Vergara Hincapie',
+ 			"email":'laurav.vergarah1@udea.edu.co',
+ 			"oficina":'20-402',
+ 			"name_facultad":'Ingeniería'
+				}
+			},
+ 	"semestre":'2022-2',
+ 	"publicacion_oferta":'2022-11-27',
+ 	"inicio_matriculas":'2022-11-29',
+ 	"fin_matriculas":'2022-11-29',
+ 	"inicio_ajustes":'2022-12-02',
+ 	"fin_ajustes":'2022-12-14',
+ 	"inicio_clases":'2023-01-16',
+ 	"fin_clases":'2023-05-12',
+ 	"inicio_examenes_finales":'2023-05-15',
+ 	"fin_examenes_finales":'2023-05-19',
+ 	"inicio_validaciones":'2022-11-29',
+ 	"fin_validaciones":'2023-05-23',
+ 	"inicio_habilitaciones":'2023-05-23',
+ 	"fin_habilitaciones":'2023-05-26',
+ 	"terminacion_oficinal":'2023-05-26'
+   
+}
+
+
+
+########################################################################################################################################
+
+
+
+
+# CURSOS
+
+{
+    "materia": 611,
+    "programaAcademico": "Ing Sistemas",
+    "versionPensum": 1,
+    "creditos": 2,
+    "nivelAcademico": 1,
+    "intensidadHoraria": 4,
+    "sede": "Oriente",
+    "gruposEspejo": true,
+    "validable": true,
+    "obligatorio": true,
+    "habilitable": true
+}
+
+_______________________________________________________________
+{
+    "materia": 495,
+    "programaAcademico": "Ing Química",
+    "versionPensum": 1,
+    "creditos": 2,
+    "nivelAcademico": 1,
+    "intensidadHoraria": 4,
+    "sede": "ciudad universitaria",
+    "gruposEspejo": true,
+    "validable": true,
+    "obligatorio": true,
+    "habilitable": true
+}
+
+
+########################################################################################################################################
+
+
+
+# GRUPOS
+{
+    	"id_grupo":'25394-1',
+ 	"codigo_curso":{
+		"codigo_curso":25394,
+ 		"id_materia":{
+			"id_materia":495,
+ 			"nombre":'Algebra',
+ 			"linea_enfasis":null
+				},
+ 		"programa_academico":'Tronco Comun',
+ 		"credits_number":3,
+ 		"version_pensum":5,
+ 		"nivel_academico":1,
+ 		"intensidad_horaria":6,
+ 		"varchar(20),":'Medellin',
+ 		"grupos_espejo":TRUE,
+ 		"validable":TRUE,
+ 		"obligatorio":TRUE,
+ 		"habilitable":TRUE 
+			},
+ 	"numero":1,
+ 	"cupos":30,
+ 	"docente":{
+		"id_persona":79462187,
+ 		"tipo_contrato":'Cátedra',
+ 		"nombre":'Luis Emilio Gonzalez Rodriguez',
+ 		"email":'luise.gonzalezr@udea.edu.co'	
+		}
+}
+______________________________________________________________________________________
+
+{
+    	"id_grupo":'25156-2',
+ 	"codigo_curso":{
+		"codigo_curso":25156,
+ 		"id_materia":{
+			"id_materia":611,
+ 			"nombre":'Optimizacion',
+ 			"linea_enfasis":'C datos'
+				},
+ 		"programa_academico":'Ing. Sistemas'
+ 		"credits_number":3,
+ 		"version_pensum":4,
+ 		"nivel_academico":4,
+ 		"intensidad_horaria":6,
+ 		"sede":'Oriente',
+ 		"grupos_espejo":TRUE,
+ 		"validable":FALSE,
+ 		"obligatorio":FALSE,
+ 		"habilitable":FALSE   
+			},
+ 	"numero":2,
+ 	"cupos":40,
+ 	"docente":{
+		"id_persona":97643250,
+ 		"tipo_contrato":'Planta',
+ 		"nombre":'Eduardo Alvarez Ramirez',
+ 		"email":'eduardo.ar@udea.edu.co'
+		}
+}
+
+########################################################################################################################################
+
+
+# HORARIO
+
+{
+    	"id":'18-210-L-10:00:00',
+ 	"id_aula":{
+		"id_aula":'18-210',
+ 		"bloque":18,
+ 		"salon":210,
+ 		"capacidad":50
+		},
+ 	"id_grupo":{
+    		"id_grupo":'25156-2',
+ 		"codigo_curso":{
+			"codigo_curso":25156,
+ 			"id_materia":{
+				"id_materia":611,
+ 				"nombre":'Optimizacion',
+ 				"linea_enfasis":'C datos'
+					},
+ 			"programa_academico":'Ing. Sistemas'
+ 			"credits_number":3,
+ 			"version_pensum":4,
+ 			"nivel_academico":4,
+ 			"intensidad_horaria":6,
+ 			"sede":'Oriente',
+ 			"grupos_espejo":TRUE,
+ 			"validable":FALSE,
+ 			"obligatorio":FALSE,
+ 			"habilitable":FALSE   
+				},
+ 		"numero":2,
+ 		"cupos":40,
+ 		"docente":{
+			"id_persona":97643250,
+ 			"tipo_contrato":'Planta',
+ 			"nombre":'Eduardo Alvarez Ramirez',
+ 			"email":'eduardo.ar@udea.edu.co'
+			}
+		},
+ 	"dia":'L',
+ 	"hora_inicio":'10:00:00',
+ 	"hora_fin":'12:00:00'
+}
+
+_______________________________________________________________________
+
+{
+	"id":'18-210-W-10:00:00',
+ 	"id_aula":{
+		"id_aula":'18-210',
+ 		"bloque":18,
+ 		"salon":210,
+ 		"capacidad":50
+		},
+ 	"id_grupo":{
+    		"id_grupo":'25156-2',
+ 		"codigo_curso":{
+			"codigo_curso":25156,
+ 			"id_materia":{
+				"id_materia":611,
+ 				"nombre":'Optimizacion',
+ 				"linea_enfasis":'C datos'
+					},
+ 			"programa_academico":'Ing. Sistemas'
+ 			"credits_number":3,
+ 			"version_pensum":4,
+ 			"nivel_academico":4,
+ 			"intensidad_horaria":6,
+ 			"sede":'Oriente',
+ 			"grupos_espejo":TRUE,
+ 			"validable":FALSE,
+ 			"obligatorio":FALSE,
+ 			"habilitable":FALSE   
+				},
+ 		"numero":2,
+ 		"cupos":40,
+ 		"docente":{
+			"id_persona":97643250,
+ 			"tipo_contrato":'Planta',
+ 			"nombre":'Eduardo Alvarez Ramirez',
+ 			"email":'eduardo.ar@udea.edu.co'
+			}
+		},
+ 	"dia":'W',
+ 	"hora_inicio":'10:00:00',
+ 	"hora_fin":'12:00:00'
+}
+
+########################################################################################################################################
+
+
+
+
+
